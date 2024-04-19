@@ -1,0 +1,35 @@
+.container {
+  background-color: #dbd4d8;
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 100px;
+  border-bottom: 1rem solid rgba(202, 182, 187, 0.3);
+  box-shadow: 20px 15px 5px #cab6bb;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputBox {
+  background-color: #54494f;
+  border-radius: 90px 90px 0px 0px;
+  height: 160px;
+  margin: 12px;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.2);
+
+  .input {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    text-align: end;
+
+    width: 80%;
+    height: 55%;
+    font-size: 46px;
+    border-radius: 20px;
+    padding-right: 12px;
+  }
+}
