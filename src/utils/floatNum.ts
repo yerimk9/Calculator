@@ -6,11 +6,8 @@ const floatNum = (num: number, result: string) => {
 
   const valueArr = result.split("+" || "-" || "÷" || "×");
   const longestDecimalIndex = findLongestString(valueArr).indexOf(".");
-  console.log(longestDecimalIndex);
-  console.log(findLongestString(valueArr));
   const fixedNum =
     findLongestString(valueArr).slice(longestDecimalIndex).length - 1;
-  console.log(fixedNum);
   if (decimalIndex === -1) return num;
 
   for (let i = decimalIndex + 1; i < numStr.length; i++) {

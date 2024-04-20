@@ -18,7 +18,6 @@ function Button({ children }: { children: React.ReactNode }) {
         setInput("");
         break;
       case "DEL":
-        console.log(typeof input);
         setInput((prev) => prev.slice(0, -1));
         break;
       case "0":
